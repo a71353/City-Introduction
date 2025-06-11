@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.hero-section {
+    margin: 0;
+    padding: 20px 0 50px 0;
+    background-image: url("/images/abf.jpg");
+    background-size: cover;
+    background-position: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    padding: 5px 10px;
+    background-color: #1D3557;
+    color: white;
+    border-radius: 5px;
+}
+
+#sec-title {
+    margin: 0 0 50px 0;
+    width: 60%;
+    padding: 5px 10px;
+    background-color: #457B9D;
+    color: white;
+    border-radius: 5px;
+}
+
+.activities {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #F1FAEE;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgs-activities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #1D3557;
+}
+
+#first-act {
+    width: 150px;
+}
+
+#second-act {
+    width: 150px;
+}
+
+#third-act {
+    width: 150px;
+}
+
+.activities img {
+    border-radius: 100px;
+    height: 100px;
+}
+
+#act-title {
+    margin: 40px 0;
+}
+
+.outer-guide {
+    border-radius: 20px;
+    width: 350px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    padding: 30px 0 30px 0;
+    background-color: #A8DADC;
+    border-bottom: 5px solid #1D3557;
+}
+
+.guide {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.outer-guide img {
+    border-radius: 10px;
+}
+
+.guide h4, h3, p {
+    color: #1D3557;
+    margin: 5px 10px;
+}
